@@ -1,0 +1,72 @@
+.logo{
+    height: 35px;
+    width: 35px;
+}
+.left{
+    display: flex;
+    flex-direction: row;
+}
+.logo{
+    position: relative;
+    right: 10px;
+}
+.left{
+    position: relative;
+    left: 220px;
+    top: 10x;
+}
+.navigationbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgb(251, 251, 251);
+    margin: 0px;
+    height: 60px;
+    position: fixed;
+    width: 100%;
+    z-index: 9999;
+    top: 0;
+}
+.img{
+    margin-right: 20px;
+}
+.right{
+    position: relative;
+    right: 150px;
+    top: 0px;
+    display: flex;
+    flex-direction: row;
+}
+.firstsection{
+    padding-left: 220px;
+    padding-top: 50px;
+}
+body{
+    background-color: grey;
+}
+.topmiddle{
+    position: relative;
+    left: 500px;
+    bottom: 566px;
+}
+.pr{
+    position: relative;
+    left: 1110px;
+    bottom: 700px;
+}
+.news{
+    position: fixed;
+}
+.posts{
+    position: relative;
+    left: 500px;
+    bottom: 550px;
+}
+.end{
+    position: relative;
+    left: 1150px;
+    bottom: 400px;
+}
+.last{
+    position: fixed;
+}
